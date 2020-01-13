@@ -22,6 +22,7 @@ A curated list of decision, classification and regression tree research papers w
    * [EMNLP](https://www.emnlp-ijcnlp2019.org/) 
 - Data
    * [KDD](https://www.kdd.org/)
+   * [CIKM](http://www.cikmconference.org/)   
    * [ICDM](http://icdm2019.bigke.org/)
    * [SDM](https://www.siam.org/Conferences/CM/Conference/sdm19)   
    * [PAKDD](http://pakdd2019.medmeeting.org)
@@ -36,9 +37,38 @@ A curated list of decision, classification and regression tree research papers w
    * [IJCAI](https://www.ijcai.org/)
    * [UAI](http://www.auai.org/)
 
-Similar collections about [graph embedding](https://github.com/benedekrozemberczki/awesome-graph-embedding), [gradient boosting](https://github.com/benedekrozemberczki/awesome-gradient-boosting-papers) and [community detection](https://github.com/benedekrozemberczki/awesome-community-detection) papers with implementations.
+Similar collections about [graph classification](https://github.com/benedekrozemberczki/awesome-graph-classification), [gradient boosting](https://github.com/benedekrozemberczki/awesome-gradient-boosting-papers), [fraud detection](https://github.com/benedekrozemberczki/awesome-fraud-detection-papers), [Monte Carlo tree search](https://github.com/benedekrozemberczki/awesome-monte-carlo-tree-search-papers), and [community detection](https://github.com/benedekrozemberczki/awesome-community-detection) papers with implementations.
 
 ## 2019
+
+- **Multi-Level Deep Cascade Trees for Conversion Rate Prediction in Recommendation System (AAAI 2019)**
+  - Hong Wen, Jing Zhang, Quan Lin, Keping Yang, Pipei Huang
+  - [[Paper]](https://arxiv.org/pdf/1805.09484.pdf)
+  
+- **Induction of Non-Monotonic Logic Programs to Explain Boosted Tree Models Using LIME (AAAI 2019)**
+  - Farhad Shakerin, Gopal Gupta
+  - [[Paper]](https://arxiv.org/abs/1808.00629)
+  
+- **Learning Optimal and Fair Decision Trees for Non-Discriminative Decision-Making (AAAI 2019)**
+  - Sina Aghaei, Mohammad Javad Azizi, Phebe Vayanos
+  - [[Paper]](https://arxiv.org/abs/1903.10598)
+
+- **Desiderata for Interpretability: Explaining Decision Tree Predictions with Counterfactuals (AAAI 2019)**
+  - Kacper Sokol, Peter A. Flach
+  - [[Paper]](https://aaai.org/ojs/index.php/AAAI/article/view/5154)
+  
+- **Weighted Oblique Decision Trees (AAAI 2019)**
+  - Bin-Bin Yang, Song-Qing Shen, Wei Gao
+  - [[Paper]](https://aaai.org/ojs/index.php/AAAI/article/view/4505)
+
+- **Learning Optimal Classification Trees Using a Binary Linear Program Formulation (AAAI 2019)**
+  - Sicco Verwer, Yingqian Zhang
+  - [[Paper]](https://yingqianzhang.net/wp-content/uploads/2018/12/VerwerZhangAAAI-final.pdf)
+
+- **Optimization of Hierarchical Regression Model with Application to Optimizing Multi-Response Regression K-ary Trees (AAAI 2019)**
+  - Pooya Tavallali, Peyman Tavallali, Mukesh Singhal
+  - [[Paper]](https://aaai.org/ojs/index.php/AAAI/article/view/4447/4325)
+
 - **XBART: Accelerated Bayesian Additive Regression Trees (AISTATS 2019)**
   - Jingyu He, Saar Yalov, P. Richard Hahn
   - [[Paper]](https://arxiv.org/abs/1810.02215)
@@ -46,10 +76,18 @@ Similar collections about [graph embedding](https://github.com/benedekrozembercz
 - **Interaction Detection with Bayesian Decision Tree Ensembles (AISTATS 2019)**
   - Junliang Du, Antonio R. Linero
   - [[Paper]](https://arxiv.org/abs/1809.08524)
+  
+- **Adversarial Training of Gradient-Boosted Decision Trees (CIKM 2019)**
+  - Stefano Calzavara, Claudio Lucchese, Gabriele Tolomei
+  - [[Paper]](https://www.dais.unive.it/~calzavara/papers/cikm19.pdf)
 
-- **Entity Personalized Talent Search Models with Tree Interaction Features (WWW 2019)**
-  - Cagri Ozcaglar, Sahin Cem Geyik, Brian Schmitz, Prakhar Sharma, Alex Shelkovnykov, Yiming Ma, Erik Buchanan
-  - [[Paper]](https://arxiv.org/pdf/1902.09041.pdf)
+- **Interpretable MTL from Heterogeneous Domains using Boosted Tree (CIKM 2019)**
+  - Ya-Lin Zhang, Longfei Li
+  - [[Paper]](https://dl.acm.org/citation.cfm?id=3357384.3358072)
+
+- **Interpreting CNNs via Decision Trees (CVPR 2019)**
+  - Quanshi Zhang, Yu Yang, Haotian Ma, Ying Nian Wu
+  - [[Paper]](https://arxiv.org/abs/1802.00121)
   
 - **Incorporating Grouping Information into Bayesian Decision Tree Ensembles (ICML 2019)**
   - Junliang Du, Antonio R. Linero
@@ -64,6 +102,69 @@ Similar collections about [graph embedding](https://github.com/benedekrozembercz
   - Hongge Chen, Huan Zhang, Duane S. Boning, Cho-Jui Hsieh
   - [[Paper]](https://arxiv.org/abs/1902.10660)
   - [[Code]](https://github.com/chenhongge/RobustTrees)
+  
+- **Learn Smart with Less: Building Better Online Decision Trees with Fewer Training Examples (IJCAI 2019)**
+  - Ariyam Das, Jin Wang, Sahil M. Gandhi, Jae Lee, Wei Wang, Carlo Zaniolo
+  - [[Paper]](https://www.ijcai.org/proceedings/2019/0306.pdf)
+  
+- **FAHT: An Adaptive Fairness-aware Decision Tree Classifier (IJCAI 2019)**
+  - Wenbin Zhang, Eirini Ntoutsi
+  - [[Paper]](https://arxiv.org/abs/1907.07237)
+  - [[Code]](https://github.com/vanbanTruong/FAHT)
+
+- **Inter-node Hellinger Distance based Decision Tree (IJCAI 2019)**
+  - Pritom Saha Akash, Md. Eusha Kadir, Amin Ahsan Ali, Mohammad Shoyaib
+  - [[Paper]](https://www.ijcai.org/proceedings/2019/0272.pdf)
+  - [[Matlab Code]](https://github.com/ZDanielsResearch/HellingerTreesMatlab)
+  - [[R Code]](https://github.com/kaustubhrpatil/HDDT)
+
+- **Gradient Boosting with Piece-Wise Linear Regression Trees (IJCAI 2019)**
+  - Yu Shi, Jian Li, Zhize Li
+  - [[Paper]](https://arxiv.org/abs/1802.05640)
+  - [[Code]](https://github.com/GBDT-PL/GBDT-PL)
+
+- **A Gradient-Based Split Criterion for Highly Accurate and Transparent Model Trees (IJCAI 2019)**
+  - Klaus Broelemann, Gjergji Kasneci
+  - [[Paper]](https://arxiv.org/abs/1809.09703)
+  
+- **Combining Decision Trees and Neural Networks for Learning-to-Rank in Personal Search (KDD 2019)**
+  - Pan Li, Zhen Qin, Xuanhui Wang, Donald Metzler
+  - [[Paper]](https://ai.google/research/pubs/pub48133/)
+  
+- **Provably Robust Boosted Decision Stumps and Trees against Adversarial Attacks (NeurIPS 2019)**
+  - Maksym Andriushchenko, Matthias Hein
+  - [[Paper]](https://arxiv.org/abs/1906.03526)
+  - [[Code]](https://github.com/max-andr/provably-robust-boosting)
+
+- **Optimal Decision Tree with Noisy Outcomes (NeurIPS 2019)**
+  - Su Jia, Viswanath Nagarajan, Fatemeh Navidi, R. Ravi
+  - [[Paper]](https://papers.nips.cc/paper/8592-optimal-decision-tree-with-noisy-outcomes.pdf)
+  - [[Code]](https://github.com/sjia1/ODT-with-noisy-outcomes)
+
+- **Regularized Gradient Boosting (NeurIPS 2019)**
+  - Corinna Cortes, Mehryar Mohri, Dmitry Storcheus
+  - [[Paper]](https://papers.nips.cc/paper/8784-regularized-gradient-boosting.pdf)
+
+- **Optimal Sparse Decision Trees (NeurIPS 2019)**
+  - Xiyang Hu, Cynthia Rudin, Margo Seltzer
+  - [[Paper]](https://papers.nips.cc/paper/8947-optimal-sparse-decision-trees.pdf)
+  - [[Code]](https://github.com/xiyanghu/OSDT)
+
+- **Calibrating Probability Estimation Trees using Venn-Abers Predictors (SDM 2019)**
+  - Ulf Johansson, Tuwe Löfström, Henrik Boström
+  - [[Paper]](https://epubs.siam.org/doi/pdf/10.1137/1.9781611975673.4)
+  
+- **Fast Training for Large-Scale One-versus-All Linear Classifiers using Tree-Structured Initialization (SDM 2019)**
+  - Huang Fang, Minhao Cheng, Cho-Jui Hsieh, Michael P. Friedlander
+  - [[Paper]](https://epubs.siam.org/doi/pdf/10.1137/1.9781611975673.32)
+  
+- **Block-distributed Gradient Boosted Trees (SIGIR 2019)**
+  - Theodore Vasiloudis, Hyunsu Cho, Henrik Boström
+  - [[Paper]](https://arxiv.org/abs/1904.10522)
+  
+- **Entity Personalized Talent Search Models with Tree Interaction Features (WWW 2019)**
+  - Cagri Ozcaglar, Sahin Cem Geyik, Brian Schmitz, Prakhar Sharma, Alex Shelkovnykov, Yiming Ma, Erik Buchanan
+  - [[Paper]](https://arxiv.org/abs/1902.09041)
 
 ## 2018
 - **Adapting to Concept Drift in Credit Card Transaction Data Streams Using Contextual Bandits and Decision Trees (AAAI 2018)**
@@ -120,11 +221,16 @@ Similar collections about [graph embedding](https://github.com/benedekrozembercz
   - Ting Ye, Hucheng Zhou, Will Y. Zou, Bin Gao, Ruofei Zhang
   - [[Paper]](http://ai.stanford.edu/~wzou/kdd_rapidscorer.pdf)
   
+- **CatBoost: Unbiased Boosting with Categorical Features (NIPS 2018)**
+  - Liudmila Prokhorenkova, Gleb Gusev, Aleksandr Vorobev, Anna Veronika Dorogush, Andrey Gulin
+  - [[Paper]](https://papers.nips.cc/paper/7898-catboost-unbiased-boosting-with-categorical-features.pdf)
+  - [[Code]](https://catboost.ai/)
+  
 - **Active Learning for Non-Parametric Regression Using Purely Random Trees (NIPS 2018)**
   - Jack Goetz, Ambuj Tewari, Paul Zimmerman
   - [[Paper]](https://papers.nips.cc/paper/7520-active-learning-for-non-parametric-regression-using-purely-random-trees.pdf)
 
-- **Alternating optimization of decision trees with application to learning sparse oblique trees (NIPS 2018)**
+- **Alternating Optimization of Decision Trees with Application to Learning Sparse Oblique Trees (NIPS 2018)**
   - Miguel Á. Carreira-Perpiñán, Pooya Tavallali
   - [[Paper]](https://papers.nips.cc/paper/7397-alternating-optimization-of-decision-trees-with-application-to-learning-sparse-oblique-trees)
 
@@ -166,6 +272,11 @@ Similar collections about [graph embedding](https://github.com/benedekrozembercz
 - **Extremely Fast Decision Tree Mining for Evolving Data Streams (KDD 2017)**
   - Albert Bifet, Jiajin Zhang, Wei Fan, Cheng He, Jianfeng Zhang, Jianfeng Qian, Geoff Holmes, Bernhard Pfahringer
   - [[Paper]](https://core.ac.uk/download/pdf/151040580.pdf)
+  
+- **CatBoost: Gradient Boosting with Categorical Features Support (NIPS 2017)**
+  - Anna Veronika Dorogush, Vasily Ershov, Andrey Gulin
+  - [[Paper]](https://arxiv.org/abs/1810.11363)
+  - [[Code]](https://catboost.ai/)
 
 - **LightGBM: A Highly Efficient Gradient Boosting Decision Tree (NIPS 2017)**
   - Guolin Ke, Qi Meng, Thomas Finley, Taifeng Wang, Wei Chen, Weidong Ma, Qiwei Ye, Tie-Yan Liu
@@ -246,16 +357,16 @@ Similar collections about [graph embedding](https://github.com/benedekrozembercz
   - Balaji Lakshminarayanan, Daniel M. Roy, Yee Whye Teh
   - [[Paper]](https://arxiv.org/abs/1502.04622)
 
-- **DART: Dropouts meet Multiple Additive Regression Trees (AISTATS 2015)**
+- **DART: Dropouts Meet Multiple Additive Regression Trees (AISTATS 2015)**
   - Korlakai Vinayak Rashmi, Ran Gilad-Bachrach
   - [[Paper]](https://arxiv.org/abs/1505.01866)
   - [[Code]](https://xgboost.readthedocs.io/en/latest/)
 
-- **Single target tracking using adaptive clustered decision trees and dynamic multi-level appearance models (CVPR 2015)**
+- **Single Target Tracking Using Adaptive Clustered Decision Trees and Dynamic Multi-level Appearance Models (CVPR 2015)**
   - Jingjing Xiao, Rustam Stolkin, Ales Leonardis
   - [[Paper]](https://www.cv-foundation.org/openaccess/content_cvpr_2015/app/3B_058.pdf)
 
-- **Face alignment using cascade Gaussian process regression trees (CVPR 2015)**
+- **Face Alignment Using Cascade Gaussian Process Regression Trees (CVPR 2015)**
   - Donghoon Lee, Hyunsin Park, Chang Dong Yoo
   - [[Paper]](https://slsp.kaist.ac.kr/paperdata/Face_Alignment_Using.pdf)
   - [[Code]](https://github.com/donghoonlee04/cGPRT)
@@ -264,7 +375,7 @@ Similar collections about [graph embedding](https://github.com/benedekrozembercz
   - Jeany Son, Ilchae Jung, Kayoung Park, Bohyung Han
   - [[Paper]](Tracking-by-Segmentation with Online Gradient Boosting Decision Tree)
 
-- **Entropy evaluation based on confidence intervals of frequency estimates : Application to the learning of decision trees (ICML 2015)**
+- **Entropy Evaluation Based on Confidence Intervals of Frequency Estimates : Application to the Learning of Decision Trees (ICML 2015)**
   - Mathieu Serrurier, Henri Prade
   - [[Paper]](http://proceedings.mlr.press/v37/serrurier15.pdf)
   
@@ -311,11 +422,11 @@ Similar collections about [graph embedding](https://github.com/benedekrozembercz
   - Balázs Kégl
   - [[Paper]](https://arxiv.org/pdf/1312.6086.pdf)
 
-- **Diagnosis determination: decision trees optimizing simultaneously worst and expected testing cost (ICML 2014)**
+- **Diagnosis Determination: Decision Trees Optimizing Simultaneously Worst and Expected Testing Cost (ICML 2014)**
   - Ferdinando Cicalese, Eduardo Sany Laber, Aline Medeiros Saettler
   - [[Paper]](https://pdfs.semanticscholar.org/47ae/852f83b76f95b27ab00308d04f6020bdf71f.pdf)
   
-- **Learning multiple-question decision trees for cold-start recommendation (WSDM 2013)**
+- **Learning Multiple-Question Decision Trees for Cold-Start Recommendation (WSDM 2013)**
   - Mingxuan Sun, Fuxin Li, Joonseok Lee, Ke Zhou, Guy Lebanon, Hongyuan Zha
   - [[Paper]](http://www.joonseok.net/papers/coldstart.pdf)
 
@@ -336,7 +447,7 @@ Similar collections about [graph embedding](https://github.com/benedekrozembercz
   - Zhe Jiang, Shashi Shekhar, Xun Zhou, Joseph K. Knight, Jennifer Corcoran
   - [[Paper]](https://pdfs.semanticscholar.org/f28e/df8d9eed76e4ce97cb6bd4182d590547be5e.pdf)
 
-- **Top-down particle filtering for Bayesian decision trees (ICML 2013)**
+- **Top-down Particle Filtering for Bayesian Decision Trees (ICML 2013)**
   - Balaji Lakshminarayanan, Daniel M. Roy, Yee Whye Teh
   - [[Paper]](https://arxiv.org/abs/1303.0561)
 
@@ -348,7 +459,7 @@ Similar collections about [graph embedding](https://github.com/benedekrozembercz
   - Frédéric Koriche, Jean-Marie Lagniez, Pierre Marquis, Samuel Thomas
   - [[Paper]](https://www.researchgate.net/publication/262398921_Knowledge_Compilation_for_Model_Counting_Affine_Decision_Trees)
   
-- **Understanding variable importances in forests of randomized trees (NIPS 2013)**
+- **Understanding Variable Importances in Forests of Randomized Trees (NIPS 2013)**
   - Gilles Louppe, Louis Wehenkel, Antonio Sutera, Pierre Geurts
   - [[Paper]](https://papers.nips.cc/paper/4928-understanding-variable-importances-in-forests-of-randomized-trees)
 
@@ -361,7 +472,7 @@ Similar collections about [graph embedding](https://github.com/benedekrozembercz
   - [[Paper]](https://ttic.uchicago.edu/~meshi/papers/mtreen.pdf)
 
 ## 2012
-- **Regression Tree Fields - An efficient, non-parametric approach to image labeling problems (CVPR 2012)**
+- **Regression Tree Fields - An Efficient, Non-parametric Approach to Image Labeling Problems (CVPR 2012)**
   - Jeremy Jancsary, Sebastian Nowozin, Toby Sharp, Carsten Rother
   - [[Paper]](http://www.nowozin.net/sebastian/papers/jancsary2012rtf.pdf)
 
@@ -390,7 +501,7 @@ Similar collections about [graph embedding](https://github.com/benedekrozembercz
   - Denis Filimonov, Mary P. Harper
   - [[Paper]](https://www.aclweb.org/anthology/D11-1064)
   
-- **Decision tree fields (ICCV 2011)**
+- **Decision Tree Fields (ICCV 2011)**
   - Sebastian Nowozin, Carsten Rother, Shai Bagon, Toby Sharp, Bangpeng Yao, Pushmeet Kohli
   - [[Paper]](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/11/nrbsyk_iccv11.pdf)
 
@@ -402,11 +513,11 @@ Similar collections about [graph embedding](https://github.com/benedekrozembercz
   - Elena Ikonomovska, João Gama, Bernard Zenko, Saso Dzeroski
   - [[Paper]](https://icml.cc/Conferences/2011/papers/349_icmlpaper.pdf)
   
-- **Density estimation trees (KDD 2011)**
+- **Density Estimation Trees (KDD 2011)**
   - Parikshit Ram, Alexander G. Gray
   - [[Paper]](https://mlpack.org/papers/det.pdf)
   
-- **Bagging gradient-boosted trees for high precision, low variance ranking models (SIGIR 2011)**
+- **Bagging Gradient-Boosted Trees for High Precision, Low Variance Ranking Models (SIGIR 2011)**
   - Yasser Ganjisaffar, Rich Caruana, Cristina Videira Lopes
   - [[Paper]](http://www.ccs.neu.edu/home/vip/teach/MLcourse/4_boosting/materials/bagging_lmbamart_jforests.pdf)
 
@@ -414,11 +525,11 @@ Similar collections about [graph embedding](https://github.com/benedekrozembercz
   - Hélène Fargier, Nahla Ben Amor, Wided Guezguez
   - [[Paper]](https://dslpitt.org/uai/papers/11/p203-fargier.pdf)
 
-- **Adaptive bootstrapping of recommender systems using decision trees (WSDM 2011)**
+- **Adaptive Bootstrapping of Recommender Systems Using Decision Trees (WSDM 2011)**
   - Nadav Golbandi, Yehuda Koren, Ronny Lempel
   - [[Paper]](https://dl.acm.org/citation.cfm?id=1935910)
 
-- **Parallel boosted regression trees for web search ranking (WWW 2011)**
+- **Parallel Boosted Regression Trees for Web Search Ranking (WWW 2011)**
   - Stephen Tyree, Kilian Q. Weinberger, Kunal Agrawal, Jennifer Paykin
   - [[Paper]](http://www.cs.cornell.edu/~kilian/papers/fr819-tyreeA.pdf)
 
@@ -448,11 +559,11 @@ Similar collections about [graph embedding](https://github.com/benedekrozembercz
   - [[Paper]](https://www3.nd.edu/~nchawla/papers/SDM10.pdf)
 
 ## 2009
-- **Stochastic gradient boosted distributed decision trees (CIKM 2009)**
+- **Stochastic Gradient Boosted Distributed Decision Trees (CIKM 2009)**
   - Jerry Ye, Jyh-Herng Chow, Jiang Chen, Zhaohui Zheng
   - [[Paper]](https://dl.acm.org/citation.cfm?id=1646301)
   
-- **Feature selection for ranking using boosted trees (CIKM 2009)**
+- **Feature Selection for Ranking Using Boosted Trees (CIKM 2009)**
   - Feng Pan, Tim Converse, David Ahn, Franco Salvetti, Gianluca Donato
   - [[Paper]](http://www.francosalvetti.com/cikm09_camera2.pdf)
   
@@ -473,7 +584,7 @@ Similar collections about [graph embedding](https://github.com/benedekrozembercz
   - Mirko Böttcher, Martin Spott, Rudolf Kruse
   - [[Paper]](https://ieeexplore.ieee.org/document/4781098)
 
-- **Bayes optimal classification for decision trees (ICML 2008)**
+- **Bayes Optimal Classification for Decision Trees (ICML 2008)**
   - Siegfried Nijssen
   - [[Paper]](http://icml2008.cs.helsinki.fi/papers/455.pdf)
   
@@ -489,7 +600,7 @@ Similar collections about [graph embedding](https://github.com/benedekrozembercz
   - Bishan Yang, Tengjiao Wang, Dongqing Yang, Lei Chang
   - [[Paper]](https://link.springer.com/chapter/10.1007/978-3-540-68125-0_36)
 
-- **A general framework for estimating similarity of datasets and decision trees: exploring semantic similarity of decision trees (SDM 2008)**
+- **A General Framework for Estimating Similarity of Datasets and Decision Trees: Exploring Semantic Similarity of Decision Trees (SDM 2008)**
   - Irene Ntoutsi, Alexandros Kalousis, Yannis Theodoridis
   - [[Paper]](https://www.researchgate.net/publication/220907047_A_general_framework_for_estimating_similarity_of_datasets_and_decision_trees_exploring_semantic_similarity_of_decision_trees)
 
@@ -519,7 +630,7 @@ Similar collections about [graph embedding](https://github.com/benedekrozembercz
   - Anneleen Van Assche, Hendrik Blockeel
   - [[Paper]](http://ftp.cs.wisc.edu/machine-learning/shavlik-group/ilp07wip/ilp07_assche.pdf)
 
-- **Sample compression bounds for decision trees (ICML 2007)**
+- **Sample Compression Bounds for Decision Trees (ICML 2007)**
   - Mohak Shah
   - [[Paper]](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.331.9136&rep=rep1&type=pdf)
 
@@ -535,11 +646,11 @@ Similar collections about [graph embedding](https://github.com/benedekrozembercz
   - Claudia Henry, Richard Nock, Frank Nielsen
   - [[Paper]](https://www.ijcai.org/Proceedings/07/Papers/135.pdf)
 
-- **Scalable look-ahead linear regression trees (KDD 2007)**
+- **Scalable Look-ahead Linear Regression Trees (KDD 2007)**
   - David S. Vogel, Ognian Asparouhov, Tobias Scheffer
   - [[Paper]](https://www.cs.uni-potsdam.de/ml/publications/kdd2007.pdf)
 
-- **Mining optimal decision trees from itemset lattices (KDD 2007)**
+- **Mining Optimal Decision Trees from Itemset Lattices (KDD 2007)**
   - Siegfried Nijssen, Élisa Fromont
   - [[Paper]](https://hal.archives-ouvertes.fr/hal-00372011/document)
   
@@ -576,7 +687,7 @@ Similar collections about [graph embedding](https://github.com/benedekrozembercz
   - Bin Wang, Harry Zhang
   - [[Paper]](https://link.springer.com/chapter/10.1007/11871842_44)
 
-- **A general framework for accurate and fast regression by data summarization in random decision trees (KDD 2006)**
+- **A General Framework for Accurate and Fast Regression by Data Summarization in Random Decision Trees (KDD 2006)**
   - Wei Fan, Joe McCloskey, Philip S. Yu
   - [[Paper]](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.442.2004&rep=rep1&type=pdf)
   
@@ -653,7 +764,7 @@ Similar collections about [graph embedding](https://github.com/benedekrozembercz
   - Amir Bar-Or, Ran Wolff, Assaf Schuster, Daniel Keren
   - [[Paper]](https://www.semanticscholar.org/paper/Decision-Tree-Induction-in-High-Dimensional%2C-Bar-Or-Wolff/90235fc35c27dae273681f7847c2b20ff37928a9)
 
-- **Boosted decision trees for word recognition in handwritten document retrieval (SIGIR 2005)**
+- **Boosted Decision Trees for Word Recognition in Handwritten Document Retrieval (SIGIR 2005)**
   - Nicholas R. Howe, Toni M. Rath, R. Manmatha
   - [[Paper]](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.152.1551&rep=rep1&type=pdf)
 
@@ -686,15 +797,15 @@ Similar collections about [graph embedding](https://github.com/benedekrozembercz
   - Wei Fan, Yi-an Huang, Philip S. Yu
   - [[Paper]](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.218.9450&rep=rep1&type=pdf)
 
-- **Lookahead-based algorithms for anytime induction of decision trees (ICML 2004)**
+- **Lookahead-based Algorithms for Anytime Induction of Decision Trees (ICML 2004)**
   - Saher Esmeir, Shaul Markovitch
   - [[Paper]](http://www.cs.technion.ac.il/~shaulm/papers/pdf/Esmeir-Markovitch-icml2004.pdf)
   
-- **Decision trees with minimal costs (ICML 2004)**
+- **Decision Trees with Minimal Costs (ICML 2004)**
   - Charles X. Ling, Qiang Yang, Jianning Wang, Shichao Zhang
   - [[Paper]](https://icml.cc/Conferences/2004/proceedings/papers/136.pdf)
 
-- **Training conditional random fields via gradient tree boosting (ICML 2004)**
+- **Training Conditional Random Fields via Gradient Tree Boosting (ICML 2004)**
   - Thomas G. Dietterich, Adam Ashenfelter, Yaroslav Bulatov
   - [[Paper]](http://web.engr.oregonstate.edu/~tgd/publications/ml2004-treecrf.pdf)
 
@@ -747,15 +858,15 @@ Similar collections about [graph embedding](https://github.com/benedekrozembercz
   - David Page, Soumya Ray
   - [[Paper]](http://pages.cs.wisc.edu/~dpage/ijcai3.pdf)
 
-- **Efficient decision tree construction on streaming data (KDD 2003)**
+- **Efficient Decision Tree Construction on Streaming Data (KDD 2003)**
   - Ruoming Jin, Gagan Agrawal
   - [[Paper]](http://web.cse.ohio-state.edu/~agrawal.28/p/sigkdd03.pdf)
 
-- **PaintingClass: interactive construction%2C visualization and exploration of decision trees (KDD 2003)**
+- **PaintingClass: Interactive Construction Visualization and Exploration of Decision Trees (KDD 2003)**
   - Soon Tee Teoh, Kwan-Liu Ma
   - [[Paper]](https://www.researchgate.net/publication/220272011_PaintingClass_interactive_construction_visualization_and_exploration_of_decision_trees)
 
-- **Accurate decision trees for mining high-speed data streams (KDD 2003)**
+- **Accurate Decision Trees for Mining High-Speed Data Streams (KDD 2003)**
   - João Gama, Ricardo Rocha, Pedro Medas
   - [[Paper]](http://staff.icar.cnr.it/manco/Teaching/2006/datamining/Esami2006/ArticoliSelezionatiDM/SEMINARI/Mining%20Data%20Streams/kdd03.pdf)
 
@@ -805,19 +916,19 @@ Similar collections about [graph embedding](https://github.com/benedekrozembercz
   - Fumio Takechi, Einoshin Suzuki
   - [[Paper]](https://www.researchgate.net/publication/221346121_Finding_an_Optimal_Gain-Ratio_Subset-Split_Test_for_a_Set-Valued_Attribute_in_Decision_Tree_Induction)
 
-- **Efficiently mining frequent trees in a forest (KDD 2002)**
+- **Efficiently Mining Frequent Trees in a Forest (KDD 2002)**
   - Mohammed Javeed Zaki
   - [[Paper]](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.160.8511&rep=rep1&type=pdf)
 
-- **SECRET: a scalable linear regression tree algorithm (KDD 2002)**
+- **SECRET: a Scalable Linear Regression Tree Algorithm (KDD 2002)**
   - Alin Dobra, Johannes Gehrke
   - [[Paper]](http://www.cs.cornell.edu/people/dobra/papers/secret-extended.pdf)
 
-- **Instability of decision tree classification algorithms (KDD 2002)**
+- **Instability of Decision Tree Classification Algorithms (KDD 2002)**
   - Ruey-Hsia Li, Geneva G. Belford
   - [[Paper]](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.12.8094&rep=rep1&type=pdf)
 
-- **Extracting decision trees from trained neural networks (KDD 2002)**
+- **Extracting Decision Trees From Trained Neural Networks (KDD 2002)**
   - Olcay Boz
   - [[Paper]](http://dspace.library.iitb.ac.in/jspui/bitstream/10054/1285/1/5664.pdf)
 
@@ -866,7 +977,7 @@ Similar collections about [graph embedding](https://github.com/benedekrozembercz
   - Bernard Zenko, Ljupco Todorovski, Saso Dzeroski
   - [[Paper]](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.23.3118&rep=rep1&type=pdf)
 
-- **Efficient algorithms for decision tree cross-validation (ICML 2001)**
+- **Efficient Algorithms for Decision Tree Cross-Validation (ICML 2001)**
   - Hendrik Blockeel, Jan Struyf
   - [[Paper]](http://www.jmlr.org/papers/volume3/blockeel02a/blockeel02a.pdf)
 
@@ -878,7 +989,7 @@ Similar collections about [graph embedding](https://github.com/benedekrozembercz
   - Athanassios Papagelis, Dimitrios Kalles
   - [[Paper]](http://www.gatree.com/data/BreedinDecisioTreeUsinEvo.pdf)
 
-- **Obtaining calibrated probability estimates from decision trees and naive Bayesian classifiers (ICML 2001)**
+- **Obtaining Calibrated Probability Estimates from Decision Trees and Naive Bayesian Classifiers (ICML 2001)**
   - Bianca Zadrozny, Charles Elkan
   - [[Paper]](http://cseweb.ucsd.edu/~elkan/calibrated.pdf)
 
@@ -886,7 +997,7 @@ Similar collections about [graph embedding](https://github.com/benedekrozembercz
   - Luca Console, Claudia Picardi, Daniele Theseider Dupré
   - [[Paper]](https://www.researchgate.net/publication/220815333_Temporal_Decision_Trees_or_the_lazy_ECU_vindicated)
   
-- **Data mining criteria for tree-based regression and classification (KDD 2001)**
+- **Data Mining Criteria for Tree-based Regression and Classification (KDD 2001)**
   - Andreas Buja, Yung-Seop Lee
   - [[Paper]](https://repository.upenn.edu/cgi/viewcontent.cgi?referer=https://www.google.com/&httpsredir=1&article=1406&context=statistics_papers)
 
@@ -952,11 +1063,11 @@ Similar collections about [graph embedding](https://github.com/benedekrozembercz
   - Manu Sridharan, Gerald Tesauro
   - [[Paper]](https://manu.sridharan.net/files/icml00.pdf)
 
-- **Growing decision trees on support-less association rules (KDD 2000)**
+- **Growing Decision Trees on Support-less Association Rules (KDD 2000)**
   - Ke Wang, Senqiang Zhou, Yu He
   - [[Paper]](https://www2.cs.sfu.ca/~wangk/pub/kdd002.pdf)
 
-- **Efficient algorithms for constructing decision trees with constraints (KDD 2000)**
+- **Efficient Algorithms for Constructing Decision Trees with Constraints (KDD 2000)**
   - Minos N. Garofalakis, Dongjoon Hyun, Rajeev Rastogi, Kyuseok Shim
   - [[Paper]](http://www.softnet.tuc.gr/~minos/Papers/kdd00-cam.pdf)
 
@@ -985,7 +1096,7 @@ Similar collections about [graph embedding](https://github.com/benedekrozembercz
   - [[Paper]](https://link.springer.com/chapter/10.1007/3-540-45372-5_40)
 
 ## 1999
-- **Modeling decision tree performance with the power law (AISTATS 1999)**
+- **Modeling Decision Tree Performance with the Power Law (AISTATS 1999)**
   - Lewis J. Frey, Douglas H. Fisher
   - [[Paper]](https://www.microsoft.com/en-us/research/wp-content/uploads/2017/01/ModelingTree.pdf)
 
@@ -1024,7 +1135,7 @@ Similar collections about [graph embedding](https://github.com/benedekrozembercz
   - [[Paper]](https://www.cis.upenn.edu/~mkearns/papers/pruning.pdf)
 
 ## 1997
-- **Pessimistic decision tree pruning based Continuous-time (ICML 1997)**
+- **Pessimistic Decision Tree Pruning Based Continuous-Time (ICML 1997)**
   - Yishay Mansour
   - [[Paper]](https://pdfs.semanticscholar.org/b6fc/e37612db10a9756b904b5e79e1144ca12574.pdf)
 
@@ -1151,7 +1262,7 @@ Similar collections about [graph embedding](https://github.com/benedekrozembercz
   - [[Paper]](https://papers.nips.cc/paper/203-performance-comparisons-between-backpropagation-networks-and-classification-trees-on-three-real-world-applications)
 
 ## 1988
-- **Multiple decision trees (UAI 1988)**
+- **Multiple Decision Trees (UAI 1988)**
   - Suk Wah Kwok, Chris Carter
   - [[Paper]](https://arxiv.org/abs/1304.2363)
 
